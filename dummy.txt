@@ -1,0 +1,10 @@
+Step 1->Create Front-End (Responsive)
+
+Log-in and Signup Page 
+Navbar
+Home Page
+User Profile
+Friends
+Posts
+Create Post 
+

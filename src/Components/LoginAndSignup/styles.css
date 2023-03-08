@@ -1,0 +1,144 @@
+/*==========================
+  TYPOGRAPHY
+  =====================
+*/
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  color: black;
+}
+h1 {
+  margin: 0;
+  font-family: "Pacifico", cursive;
+  color: black;
+}
+
+/*====================
+  layout
+  ====================  
+*/
+input {
+  padding: 0.75em;
+  border-bottom: 3px solid black;
+  border-top: 0px;
+  border-right: 0;
+  border-left: 0;
+  background: transparent;
+  outline: none;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  width: 100%;
+}
+label {
+  margin-bottom: 1rem;
+  margin-left: 0.5em;
+  font-weight: bold;
+  font-size: 0.75rem;
+  margin-right: 0.5em;
+}
+button {
+  width: 50%;
+  padding: 0.65em;
+  border-radius: 20px;
+  border: 2px solid black;
+  font-size: 1.3rem;
+  margin: 0;
+  /* background-color: #000000; */
+  color: black;
+  background: transparent;
+}
+button:hover {
+  background-color: black;
+  transition: 0.5s;
+  color: white;
+}
+p {
+  display: inline;
+}
+a {
+  display: inline;
+  text-decoration: none;
+  margin: 0;
+  color: black;
+}
+a:hover {
+  color: rgba(0, 0, 0, 0.464);
+  transition: 0.5s;
+}
+.container {
+  background-image: url("../../images/bg5.jpg");
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.login-form-container {
+  /* max-width: 975px; */
+  max-width: 70%;
+  width: 70vw;
+  height: 70vh;
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  background: transparent;
+  border: 2px solid black;
+  border-radius: 30px;
+  backdrop-filter: blur(10px);
+  box-shadow: 2px;
+}
+.login-image {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+}
+
+.login-form {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 25%;
+  width: 100%;
+}
+
+.input-feilds {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 50%;
+  height: 50%;
+}
+@media (max-width: 845px) {
+  .login-image {
+    display: none;
+  }
+  .login-form {
+    width: 100%;
+  }
+  .input-feilds {
+    width: 70%;
+  }
+}
+
+@media (max-width: 1156px) {
+  .to-be-dissappeared {
+    display: block;
+  }
+  a {
+    margin-left: 3em;
+  }
+}

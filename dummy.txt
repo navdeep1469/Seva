@@ -8,3 +8,31 @@ Friends
 Posts
 Create Post 
 
+
+BackGround= #F9F9F9
+Buttons and Other= #FF7BA9
+background secondry=#79DAE8
+
+
+typography
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;600&display=swap" rel="stylesheet">
+
+font-family: 'Montserrat', sans-serif;
+
+Features
+->Landing Page
+->Login and Signup with and without google
+->CRUD Post
+->Like and Comment on Post 
+->Follow and Unfollow
+->Realtime Notification
+->Realtime Chat
+->Location of the events
+->Nearby Events
+->View Profile
+->Edit Profile
+
+A62A6C

@@ -7,10 +7,7 @@ function Home() {
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
-        backgroundColor: "black",
-        width: "100vw",
-        height: "100vh",
-        color: "white",
+        color: "black",
       }}
     >
       Home

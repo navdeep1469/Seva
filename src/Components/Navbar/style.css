@@ -6,6 +6,10 @@ body {
   justify-content: space-between;
   align-items: end;
   padding: 1em 0em;
+  position: sticky;
+  top: 0px;
+  /* height: 100%; */
+  /* border: 1px solid black; */
 }
 
 .logo-container {
@@ -16,7 +20,7 @@ body {
   flex-direction: column;
 }
 
-.navbar-items {
+.desktop-navbar {
   width: 50%;
 }
 .item {
@@ -24,7 +28,7 @@ body {
   margin: 0px;
   list-style: none;
 }
-.navbar-items ul {
+.desktop-navbar ul {
   display: flex;
   justify-content: space-evenly;
   align-items: flex-start;
@@ -35,14 +39,10 @@ body {
   font-weight: bold;
   text-decoration: none;
 }
-.scale-up-center {
-  -webkit-animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1)
-    both;
-  animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-}
 
 .mobile-navbar {
   display: none;
+  height: 100%;
 }
 .side-navbar {
   height: 80px;
@@ -60,14 +60,17 @@ body {
 
 .side-nav-menu {
   background-color: #ff7ba9;
-  width: 250px;
+  width: 50%;
   height: 100vh;
+  /* max-height: 100%; */
   display: flex;
+  position: fixed;
   justify-content: center;
   position: fixed;
   top: 0;
   left: -100%;
   transition: 850ms;
+  overflow: hidden;
 }
 
 .side-nav-menu.active {
@@ -86,7 +89,7 @@ body {
 
 .side-nav-text a {
   text-decoration: none;
-  color: #7c7c7c;
+  color: #f9f9f9;
   font-size: 18px;
   font-weight: bold;
   width: 95%;
@@ -117,33 +120,13 @@ body {
 span {
   margin-left: 16px;
 }
-@-webkit-keyframes scale-up-center {
-  0% {
-    -webkit-transform: scale(0.5);
-    transform: scale(0.5);
-  }
-  100% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  }
-}
-@keyframes scale-up-center {
-  0% {
-    -webkit-transform: scale(0.5);
-    transform: scale(0.5);
-  }
-  100% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  }
-}
 
-@media (max-width: 950px) {
-  .navbar-items {
+@media (max-width: 1165px) {
+  .desktop-navbar {
     width: 80%;
   }
 }
-@media (max-width: 680px) {
+@media (max-width: 800px) {
   .navbar {
     display: flex;
     flex-direction: row-reverse;

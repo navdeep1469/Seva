@@ -1,0 +1,77 @@
+a {
+  text-decoration: none;
+}
+.formAndImageContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.75rem;
+}
+.imageContainer {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.loginFormContainer {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+}
+.image {
+  width: 100%;
+}
+.loginPage {
+  max-width: 1500px;
+}
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+}
+.loginForm {
+  width: 50%;
+  padding: 3em;
+  margin-left: 4rem;
+  border-radius: 1rem;
+  box-shadow: rgba(20, 20, 20, 0.1) 0 10px 10px 10px,
+    rgba(20, 20, 20, 0.1) 0 6px 20px;
+}
+
+.signup {
+  width: 100%;
+}
+.btn {
+  width: 100%;
+  background: transparent;
+  color: #ff7ba9;
+  border: 1px solid white;
+}
+.btn:hover {
+  border: 1px solid #ff7ba9;
+  border-color: #ff7ba9;
+  box-shadow: #ff7ba9 0 2px 2px 2px, transparent 0 0 0 0;
+}
+
+@media (max-width: 800px) {
+  .formAndImageContainer {
+    flex-direction: column-reverse;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .image {
+    display: none;
+  }
+  /* .loginForm {
+    width: 100%;
+  } */
+  .loginFormContainer {
+    margin: 2rem 0rem;
+    width: 100%;
+  }
+  .loginForm {
+    margin: 0;
+  }
+  .imageContainer {
+    width: 90%;
+  }
+}

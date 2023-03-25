@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./styles.css";
 import Navbar from "../Navbar/Navbar";
 import LoginForm from "./LoginForm";
@@ -7,7 +7,7 @@ import image from "../../images/5498791.jpg";
 import theme from "../../theme";
 
 function LoginAndSignUp() {
-  const [isLoggedIn, setIsLoggedIn] = useState(false);
+  const isLoggedIn = false;
   return (
     <div className='loginPage'>
       <Navbar />

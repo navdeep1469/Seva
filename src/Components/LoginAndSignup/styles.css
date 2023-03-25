@@ -4,13 +4,13 @@ a {
 .formAndImageContainer {
   display: flex;
   justify-content: space-between;
-  margin-top: 1.75rem;
+  margin-top: 2rem;
 }
 .imageContainer {
   width: 50%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 .loginFormContainer {
   width: 40%;

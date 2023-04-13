@@ -1,0 +1,50 @@
+.requestContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.requestHeading {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  padding-bottom: 0.75em;
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+
+.requestNoti {
+  background-color: red;
+  width: 20px;
+  text-align: center;
+  height: 20px;
+  line-height: 1.75em;
+  color: white;
+  border-radius: 8px;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: rgba(20, 20, 20, 0.1) 0 2px 2px 2px;
+  margin-bottom: 1rem;
+}
+.reqName {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.reqName img {
+  border-radius: 10px;
+}
+.buttons {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+}

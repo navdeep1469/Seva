@@ -1,0 +1,27 @@
+.button {
+  align-items: center;
+  border-radius: 12px;
+  background: transparent;
+  color: white;
+  background-color: #85cdfd;
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 1rem;
+  font-weight: 500;
+  outline: none;
+  padding: 0.5rem 0.65rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow 0.4s, -webkit-box-shadow 0.4s;
+  border: 0;
+  touch-action: manipulation;
+  justify-content: center;
+  border: 0.25px solid black;
+  /* border: 1px solid white; */
+}
+
+.button:hover {
+  /* box-shadow: rgba(20, 20, 20, 0.1) 0 2px 2px 2px, transparent 0 0 0 0; */
+  /* border: 1px solid black; */
+  transition: 0.25s;
+}

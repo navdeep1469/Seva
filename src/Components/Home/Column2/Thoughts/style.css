@@ -1,0 +1,25 @@
+.thoughts {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: rgba(20, 20, 20, 0.1) 0 2px 2px 2px;
+  padding: 0.15rem 0rem;
+}
+.thtsInput {
+  width: 70%;
+  background-color: transparent;
+  border: none;
+  padding: 1rem 0.5rem;
+  font-size: 1rem;
+  color: #7d9d9c;
+}
+.thtsInput:focus {
+  outline: none;
+}
+::placeholder {
+  font-weight: 600;
+  color: #7d9d9c;
+}

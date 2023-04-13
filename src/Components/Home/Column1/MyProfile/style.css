@@ -1,0 +1,15 @@
+.profileCard {
+  width: 100%;
+  padding: 1rem 0rem;
+  border-radius: 10px;
+  box-shadow: rgba(20, 20, 20, 0.1) 0 2px 2px 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.name {
+  margin-left: 1.5em;
+  display: flex;
+  flex-direction: column;
+}

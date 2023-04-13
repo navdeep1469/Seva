@@ -1,58 +1,27 @@
 .homeBody {
-  width: 100%;
-  background-color: black;
+  background-color: #f8f9fa;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-evenly;
 }
 .homeCol1 {
   width: 15%;
-  border: 1px solid black;
-}
-.profilePic {
-  object-fit: cover;
-  width: 60px;
-  height: 50px;
-  border-radius: 10px;
-}
-.profileCard {
-  width: 100%;
-  padding: 1rem 0rem;
-  border-radius: 10px;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.name {
-  margin-left: 1.5em;
-}
-.sideNav {
-  margin-top: 2rem;
-  display: flex;
-  justify-content: flex-start;
-  padding: 1rem 0rem;
-  border-radius: 10px;
-  /* width: 100%; */
-}
-.item {
   /* border: 1px solid black; */
-  /* padding: 1rem 0rem; */
+  height: 100%;
+  position: sticky;
+  top: 10px;
+  left: 0;
+}
+
+.homeCol2 {
+  width: 50%;
+  /* border: 1px solid black; */
   display: flex;
-  width: 100%;
-  justify-content: flex-start;
-  align-items: center;
-  /* background-color: red; */
-  /* border-bottom: 1px solid #7d9d9c; */
+  flex-direction: column;
+  height: 100%;
 }
-.itemHover {
-  border-left: 4px solid white;
-  padding: 0rem 1rem;
-  /* background-color: red; */
-}
-.itemHover:hover {
-  border-left: 4px solid #ff7ba9;
-  transition: 0.4s;
-  background-color: #f9f9f9;
-  color: #ff7ba9;
-}
-.item:hover {
-  border-bottom: none;
+.homeCol3 {
+  width: 20%;
+  /* border: 1px solid black; */
+  height: 100%;
 }

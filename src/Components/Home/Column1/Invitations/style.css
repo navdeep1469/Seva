@@ -1,0 +1,48 @@
+.invitationContainer {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.invitationHeading {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  padding-bottom: 0.5em;
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+
+.invitationCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 1.5em 0.5em;
+  border-radius: 10px;
+  box-shadow: rgba(20, 20, 20, 0.1) 0 2px 2px 2px;
+}
+
+.invitationImg {
+  width: 90%;
+  margin-bottom: 1em;
+  border-radius: 10px;
+}
+
+.invitationBtn {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.invitationNoti {
+  background-color: red;
+  width: 20px;
+  text-align: center;
+  height: 20px;
+  line-height: 1.75em;
+  color: white;
+  border-radius: 8px;
+}

@@ -1,0 +1,57 @@
+.contactContainer {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactHeading {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  padding-bottom: 0.5em;
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+.contactNoti {
+  background-color: red;
+  width: 20px;
+  text-align: center;
+  height: 20px;
+  line-height: 1.75em;
+  color: white;
+  border-radius: 8px;
+}
+
+.contactList {
+  padding: 1rem 0rem;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: rgba(20, 20, 20, 0.1) 0 2px 2px 2px;
+}
+.itemContainer {
+  display: flex;
+  width: 100%;
+  background-color: white;
+  /* justify-content: center; */
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.itemContainer img {
+  border-radius: 10px;
+  object-fit: contain;
+}
+.itemContainer p {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #3c4048;
+  margin-left: 20px;
+}
+.itemHover {
+  padding: 0rem 1rem;
+}
+.itemContainer:hover {
+  background-color: #f9f9f9;
+}

@@ -10,7 +10,9 @@ body {
   top: 0px;
   background-color: white;
   box-shadow: rgba(20, 20, 20, 0.1) 0px 2px 2px 2px;
-  width: 100vw;
+  /* width: 100vw; */
+  width: 100%;
+  z-index: 100;
 }
 
 .logo-container {
@@ -118,9 +120,9 @@ body {
   align-items: center;
 }
 
-span {
+/* span {
   margin-left: 16px;
-}
+} */
 
 @media (max-width: 1165px) {
   .desktop-navbar {

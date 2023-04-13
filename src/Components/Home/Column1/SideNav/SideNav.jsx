@@ -3,9 +3,10 @@ import * as AiIcons from "react-icons/ai";
 import * as BsIcons from "react-icons/bs";
 import * as IoIcons from "react-icons/io";
 import * as BiIcons from "react-icons/bi";
+import "./style.css";
 
 import { Link } from "react-router-dom";
-import theme from "../../theme";
+import theme from "../../../../theme";
 
 const Item = ({ name, icon, source }) => {
   return (
@@ -56,7 +57,7 @@ function SideNav() {
   ];
   return (
     <div className='sideNav' style={{ backgroundColor: "white" }}>
-      <ul style={{ listStyle: "none", width: "100%" }}>
+      <ul style={{ listStyle: "none", width: "100%", padding: 0 }}>
         {items.map(({ name, icon, source }) => {
           return <Item name={name} icon={icon} source={source} />;
         })}

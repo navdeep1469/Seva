@@ -1,0 +1,66 @@
+.post {
+  margin: 1.5rem 0rem;
+  /* border: 1px solid black; */
+  background-color: white;
+  border-radius: 15px;
+  padding: 1rem 1rem 0rem 1rem;
+  box-shadow: rgba(20, 20, 20, 0.1) 0 2px 2px 2px;
+}
+
+.nameContainer {
+  display: flex;
+  width: 100%;
+}
+.nameContainer div p {
+  margin: 0;
+  font-size: 0.75rem;
+}
+.desc p {
+  font-size: 0.85rem;
+}
+.postBody {
+  display: flex;
+  justify-content: center;
+}
+.postBody img {
+  /* width: 100%; */
+  border-radius: 15px;
+  width: 98%;
+}
+.react {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid black; */
+  width: 33%;
+  padding: 0.75rem;
+  color: #7d9d9c;
+  border-radius: 10px;
+  border: 0;
+  font-weight: 550;
+}
+.postFooter {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+
+  margin: 1rem 0 0.15rem 0;
+}
+.icons {
+  margin-right: 5px;
+  color: #7d9d9c;
+}
+
+.react:hover {
+  background-color: #eaeaea;
+  /* transition: 0.4s; */
+  /* color: white; */
+}
+.pressed:active {
+  color: #3c4048;
+}
+
+.react:active {
+  color: #3c4048;
+  background-color: #d8d9cf;
+}

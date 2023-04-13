@@ -1,0 +1,29 @@
+.sideNav {
+  margin-top: 2rem;
+  display: flex;
+  padding: 1rem 0rem;
+  border-radius: 10px;
+  box-shadow: rgba(20, 20, 20, 0.1) 0 2px 2px 2px;
+}
+.item {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+}
+.itemHover {
+  border-left: 4px solid white;
+  padding: 0rem 1rem;
+}
+.itemHover:hover {
+  border-left: 4px solid #ff7ba9;
+  transition: 0.4s;
+  background-color: #f9f9f9;
+  color: #ff7ba9;
+}
+.item:hover {
+  border-bottom: none;
+}
+.item span {
+  margin-left: 1.5rem;
+}

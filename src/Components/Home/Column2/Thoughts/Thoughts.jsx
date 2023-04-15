@@ -1,8 +1,18 @@
 import React from "react";
 import * as AiIcons from "react-icons/ai";
 import "./style.css";
+import theme from "../../../../theme";
+import Button from "../../../Button/Button";
 
 function Thoughts() {
+  const style = {
+    x: 0.6,
+    y: 0.5,
+    backgroundcolor: theme.backGroundSecondry,
+    color: "white",
+    borderWidth: 0,
+    bordercolor: "white",
+  };
   return (
     <div className='thoughts'>
       <img
@@ -18,10 +28,11 @@ function Thoughts() {
         className='thtsInput'
         placeholder="What's new, Sidhu?"
       />
-      <button>
-        <AiIcons.AiOutlinePaperClip size={25} />
-        Post it!
-      </button>
+      <Button
+        title={"Post it!"}
+        icon={<AiIcons.AiOutlinePaperClip size={25} />}
+        style={style}
+      />
     </div>
   );
 }

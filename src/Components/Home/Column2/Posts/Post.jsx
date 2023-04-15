@@ -1,10 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import "./style.css";
 import * as FiIcons from "react-icons/fi";
 import * as AiIcons from "react-icons/ai";
 import theme from "../../../../theme";
+import CommentItem from "./CommentItem";
 
 function Post() {
+  const [commentsVisible, setCommentsVisible] = useState(false);
+
   return (
     <div className='post'>
       <div className='postHeader'>
@@ -74,7 +77,8 @@ function Post() {
           <div
             className='react pressed'
             onClick={() => {
-              console.log("Comment");
+              // console.log("Comment");
+              setCommentsVisible(!commentsVisible);
             }}
           >
             <AiIcons.AiOutlineComment
@@ -97,6 +101,26 @@ function Post() {
             />
             Repost
           </div>
+        </div>
+        <div
+          className='commentSection'
+          style={{
+            display: commentsVisible ? "flex" : "none",
+          }}
+        >
+          <div className='addComment'>
+            <div className='commentProfile'>
+              <img
+                src='https://images.news9live.com/h-upload/2022/07/02/448078-sidhu.jpg?w=663'
+                alt=''
+                width={"100%"}
+                style={{ borderRadius: 15 }}
+              />
+            </div>
+            <input type='text' placeholder='Add a comment....' />
+          </div>
+
+          <CommentItem />
         </div>
       </div>
     </div>

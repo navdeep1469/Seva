@@ -39,4 +39,34 @@ export const data = [
     img: "https://i0.wp.com/www.wikiblogon.in/wp-content/uploads/2022/04/1-30.jpg",
     id: 7,
   },
+  {
+    name: "Garry Sandhu",
+    img: "https://i0.wp.com/www.wikiblogon.in/wp-content/uploads/2022/04/1-30.jpg",
+    id: 7,
+  },
+  {
+    name: "Garry Sandhu",
+    img: "https://i0.wp.com/www.wikiblogon.in/wp-content/uploads/2022/04/1-30.jpg",
+    id: 7,
+  },
+  {
+    name: "Garry Sandhu",
+    img: "https://i0.wp.com/www.wikiblogon.in/wp-content/uploads/2022/04/1-30.jpg",
+    id: 7,
+  },
+  {
+    name: "Garry Sandhu",
+    img: "https://i0.wp.com/www.wikiblogon.in/wp-content/uploads/2022/04/1-30.jpg",
+    id: 7,
+  },
+  {
+    name: "Garry Sandhu",
+    img: "https://i0.wp.com/www.wikiblogon.in/wp-content/uploads/2022/04/1-30.jpg",
+    id: 7,
+  },
+  {
+    name: "Garry Sandhu",
+    img: "https://i0.wp.com/www.wikiblogon.in/wp-content/uploads/2022/04/1-30.jpg",
+    id: 7,
+  },
 ];

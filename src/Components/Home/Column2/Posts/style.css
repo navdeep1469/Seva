@@ -4,7 +4,8 @@
   background-color: white;
   border-radius: 15px;
   /* padding: 1rem 1rem 0rem 1rem; */
-  box-shadow: rgba(20, 20, 20, 0.1) 0 2px 2px 2px;
+  /* box-shadow: rgba(20, 20, 20, 0.1) 0 2px 2px 2px; */
+  border: 0.5px solid #e4ecec;
 }
 .postHeader {
   padding: 1rem;

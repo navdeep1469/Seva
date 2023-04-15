@@ -28,7 +28,8 @@
   padding: 1rem 0rem;
   background-color: white;
   border-radius: 10px;
-  box-shadow: rgba(20, 20, 20, 0.1) 0 2px 2px 2px;
+  /* box-shadow: rgba(20, 20, 20, 0.1) 0 2px 2px 2px; */
+  border: 0.5px solid #e4ecec;
 }
 .contactItemContainer {
   display: flex;

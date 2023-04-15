@@ -30,7 +30,7 @@
   border-radius: 10px;
   box-shadow: rgba(20, 20, 20, 0.1) 0 2px 2px 2px;
 }
-.itemContainer {
+.contactItemContainer {
   display: flex;
   width: 100%;
   background-color: white;
@@ -39,19 +39,27 @@
   margin-bottom: 10px;
 }
 
-.itemContainer img {
+.contactItemContainer img {
   border-radius: 10px;
   object-fit: contain;
 }
-.itemContainer p {
+.contactItemContainer p {
   font-size: 0.75rem;
   font-weight: 700;
   color: #3c4048;
   margin-left: 20px;
 }
-.itemHover {
+.contactItemHover {
   padding: 0rem 1rem;
+  border-left: 4px solid white;
 }
-.itemContainer:hover {
+.contactItemHover:hover {
+  transition: 0.2s;
+  background-color: #f9f9f9;
+  border-left-color: #ff7ba9;
+  color: #ff7ba9;
+}
+.contactItemContainer:hover {
+  /* color: #ff7ba9; */
   background-color: #f9f9f9;
 }

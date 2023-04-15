@@ -22,6 +22,14 @@ function Home() {
         <div className='homeCol2'>
           <Thoughts />
           <Post />
+          <Post />
+          <Post />
+          <Post />
+          <Post />
+          <Post />
+          <Post />
+          <Post />
+          <Post />
           {/* <Post />
           <Post />
           <Post />

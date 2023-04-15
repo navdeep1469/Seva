@@ -10,7 +10,7 @@ function Thoughts() {
         src='https://images.news9live.com/h-upload/2022/07/02/448078-sidhu.jpg?w=663'
         className='profilePic'
         width={"7%"}
-        style={{ borderRadius: 15 }}
+        style={{ borderRadius: 12 }}
       />
       {/* <span>What's new, Sidhu? </span> */}
       <input

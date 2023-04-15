@@ -1,23 +1,21 @@
 import React from "react";
 import "./style.css";
-import theme from "../../theme";
 
-function Button({ title, x, y }) {
+function Button({ title, style, icon }) {
   return (
     <div
       className='button'
       style={{
-        padding: `${y}rem ${x}rem`,
-        backgroundColor:
-          title === "Accept" ? theme.backGroundSecondry : "white",
-        color: title === "Accept" ? "white" : theme.headlines,
-        borderWidth: title === "Accept" ? 0 : 0.5,
-        borderColor: title === "Accept" ? "white" : "black",
-
+        padding: `${style.y}rem ${style.x}rem`,
+        backgroundColor: style.backgroundcolor,
+        color: style.color,
+        borderWidth: style.borderwidth,
+        borderColor: style.bordercolor,
         fontWeight: "600",
         fontSize: ".85rem",
       }}
     >
+      {icon !== "none" ? icon : ""}
       {title}
     </div>
   );

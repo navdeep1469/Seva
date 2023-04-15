@@ -2,26 +2,25 @@
   background-color: #f8f9fa;
   padding: 2rem;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 .homeCol1 {
   width: 15%;
-  /* border: 1px solid black; */
   height: 100%;
   position: sticky;
   top: 10px;
-  left: 0;
 }
 
 .homeCol2 {
-  width: 50%;
-  /* border: 1px solid black; */
+  width: 40%;
   display: flex;
   flex-direction: column;
   height: 100%;
+  margin: 0rem 2rem;
 }
 .homeCol3 {
   width: 20%;
-  /* border: 1px solid black; */
   height: 100%;
+  position: sticky;
+  top: 10px;
 }

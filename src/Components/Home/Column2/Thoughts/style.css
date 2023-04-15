@@ -19,7 +19,7 @@
 .thtsInput:focus {
   outline: none;
 }
-::placeholder {
+.thoughts ::placeholder {
   font-weight: 600;
   color: #7d9d9c;
 }

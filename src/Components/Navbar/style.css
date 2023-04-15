@@ -16,15 +16,24 @@ body {
 }
 
 .logo-container {
-  width: 30%;
+  width: 33%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  /* border: 1px solid black; */
 }
 
 .desktop-navbar {
-  width: 50%;
+  width: 43%;
+  display: flex;
+  /* border: 1px solid black; */
+  align-items: center;
+  justify-content: flex-start;
+}
+.navbarImg {
+  width: 8%;
+  margin: 0rem 1rem;
 }
 .item {
   border: none;
@@ -46,6 +55,7 @@ body {
 .mobile-navbar {
   display: none;
   height: 100%;
+  /* overflow: hidden; */
 }
 .side-navbar {
   height: 80px;
@@ -73,7 +83,7 @@ body {
   top: 0;
   left: -100%;
   transition: 850ms;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .side-nav-menu.active {
@@ -119,6 +129,29 @@ body {
   justify-content: start;
   align-items: center;
 }
+.search {
+  display: flex;
+  align-items: center;
+  padding: 0.8rem;
+  width: 40%;
+  background-color: #f8f9fa;
+  /* border: 1px solid black; */
+  border-radius: 10px;
+  margin-right: 1.5rem;
+}
+.search input {
+  border: none;
+  outline: none;
+  padding-left: 10px;
+  width: 100%;
+  font-size: 0.85em;
+  background: transparent;
+  /* padding: 2px; */
+}
+/* 
+.search input:focus{
+  o
+} */
 
 /* span {
   margin-left: 16px;

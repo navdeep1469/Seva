@@ -3,10 +3,21 @@ import "./style.css";
 import { Link } from "react-router-dom";
 import * as FaIcons from "react-icons/fa";
 import * as AiIcons from "react-icons/ai";
-import { NavbarData, NavTab } from "./NavbarData";
+import * as FiIcons from "react-icons/fi";
+import { NavbarData } from "./NavbarData";
+import theme from "../../theme";
+import Button from "../Button/Button";
 
 function Navbar() {
-  const [sidebar, setSidebar] = useState(false);
+  const [sidebar, setSidebar] = useState(true);
+  const style = {
+    x: 1,
+    y: 0.5,
+    backgroundcolor: theme.backGroundSecondry,
+    color: "white",
+    borderWidth: 0,
+    bordercolor: "white",
+  };
 
   const showSidebar = () => setSidebar(!sidebar);
   return (
@@ -45,17 +56,29 @@ function Navbar() {
         </Link>
       </div>
       <div className='desktop-navbar'>
-        <ul>
-          {NavbarData.map(({ cName, path, title, icon }, i) => {
-            return (
-              <Link to={path} className={cName} style={{ color: "#f9f9f9" }}>
-                <button>
-                  <NavTab title={title} icon={icon} />
-                </button>
-              </Link>
-            );
-          })}
-        </ul>
+        <div className='search'>
+          <FaIcons.FaSearch color={theme.para} size={18} />
+          <input type='text' placeholder='Search' />
+        </div>
+        <Button
+          title={"Create"}
+          style={style}
+          icon={
+            <FiIcons.FiPlusSquare
+              size={25}
+              color='white'
+              style={{ marginRight: 5 }}
+            />
+          }
+        />
+        <div className='navbarImg'>
+          <img
+            src='https://images.news9live.com/h-upload/2022/07/02/448078-sidhu.jpg?w=663'
+            alt=''
+            width={"100%"}
+            style={{ borderRadius: 15 }}
+          />
+        </div>
       </div>
 
       <div className='mobile-navbar'>

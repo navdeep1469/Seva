@@ -17,7 +17,7 @@ function Post() {
               border: "1px solid black",
               marginRight: ".5rem",
             }}
-            width={"7%"}
+            width={"9%"}
           />
           <div>
             <p style={{ fontWeight: "bold", color: theme.headlines }}>
@@ -44,45 +44,59 @@ function Post() {
         />
       </div>
       <div className='postFooter'>
-        <div
-          className='react pressed'
-          onClick={() => {
-            console.log("Like");
-          }}
-        >
-          <FiIcons.FiHeart
-            size={25}
-            // color={theme.para}
-            className='icons pressed'
-            onClick={() => {}}
-          />
-          Like
+        <div className='likesAndComments'>
+          <span>78 Likes</span>
+          <span>84 Comments . 7 Reposts</span>
         </div>
         <div
-          className='react pressed'
-          onClick={() => {
-            console.log("Comment");
+          style={{
+            display: "flex",
+            width: "92%",
+            borderTop: ".25px solid #e4ecec ",
+            justifyContent: "space-between",
+            padding: ".25rem 0rem",
           }}
         >
-          <AiIcons.AiOutlineComment
-            size={25}
-            // color={theme.para}
-            className='icons pressed'
-          />
-          Comment
-        </div>
-        <div
-          className='react pressed'
-          onClick={() => {
-            console.log("Repost");
-          }}
-        >
-          <AiIcons.AiOutlineShareAlt
-            size={25}
-            // color={theme.para}
-            className='icons pressed'
-          />
-          Repost
+          <div
+            className='react pressed'
+            onClick={() => {
+              console.log("Like");
+            }}
+          >
+            <FiIcons.FiHeart
+              size={25}
+              // color={theme.para}
+              className='icons pressed'
+              onClick={() => {}}
+            />
+            Like
+          </div>
+          <div
+            className='react pressed'
+            onClick={() => {
+              console.log("Comment");
+            }}
+          >
+            <AiIcons.AiOutlineComment
+              size={25}
+              // color={theme.para}
+              className='icons pressed'
+            />
+            Comment
+          </div>
+          <div
+            className='react pressed'
+            onClick={() => {
+              console.log("Repost");
+            }}
+          >
+            <AiIcons.AiOutlineShareAlt
+              size={25}
+              // color={theme.para}
+              className='icons pressed'
+            />
+            Repost
+          </div>
         </div>
       </div>
     </div>

@@ -15,8 +15,10 @@ function MyProfile() {
         style={{ borderRadius: 15 }}
       />
       <div className='name'>
-        <p style={{ margin: 0 }}>Alexandra Broke</p>
-        <p style={{ margin: 0 }}>@alexsunshine</p>
+        <p style={{ margin: 0, fontWeight: "700", color: theme.headlines }}>
+          Alexandra Broke
+        </p>
+        <p style={{ margin: 0, color: theme.para }}>@alexsunshine</p>
       </div>
     </div>
   );

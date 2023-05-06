@@ -6,12 +6,8 @@ import theme from "../../theme";
 import { Link } from "react-router-dom";
 
 function LandingPage() {
-  const sidebar = true;
   return (
-    <div
-      className='landing-page '
-      style={{ overflow: sidebar ? "hidden" : "scroll" }}
-    >
+    <div className='landing-page '>
       <Navbar />
       <div className='container'>
         <div className='col1'>

@@ -8,8 +8,8 @@ import { NavbarData } from "./NavbarData";
 import theme from "../../theme";
 import Button from "../Button/Button";
 
-function Navbar() {
-  const [sidebar, setSidebar] = useState(true);
+function Navbar({ handleCreatePost }) {
+  const [sidebar, setSidebar] = useState(false);
   const style = {
     x: 1,
     y: 0.5,
@@ -63,6 +63,7 @@ function Navbar() {
         <Button
           title={"Create"}
           style={style}
+          handleCreatePost={handleCreatePost}
           icon={
             <FiIcons.FiPlusSquare
               size={25}

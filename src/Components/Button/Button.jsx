@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 
-function Button({ title, style, icon }) {
+function Button({ title, style, icon, handleCreatePost }) {
   return (
     <div
       className='button'
@@ -14,6 +14,7 @@ function Button({ title, style, icon }) {
         fontWeight: "600",
         fontSize: ".85rem",
       }}
+      onClick={handleCreatePost}
     >
       {icon !== "none" ? icon : ""}
       {title}

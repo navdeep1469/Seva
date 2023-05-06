@@ -3,13 +3,13 @@
   padding: 2rem;
   display: flex;
   justify-content: center;
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 .homeCol1 {
   width: 15%;
   height: 100%;
-  position: sticky;
-  top: 1px;
+  /* position: sticky;
+  top: 1px; */
 }
 
 .homeCol2 {
@@ -22,7 +22,7 @@
 .homeCol3 {
   width: 20%;
   height: 100%;
-  position: sticky;
-  top: 1px;
+  /* position: sticky;
+  top: 1px; */
   /* overflow: scroll; */
 }
